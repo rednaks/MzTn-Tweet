@@ -1,0 +1,5 @@
+content   mztnTweet                content/
+skin      mztnTweet  classic/1.0   skin/
+locale    mztnTweet  en-US         locale/en-US/
+
+overlay chrome://browser/content/browser.xul  chrome://mztnTweet/content/browserOverlay.xul

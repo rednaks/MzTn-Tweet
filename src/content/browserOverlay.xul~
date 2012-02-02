@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://mztnTweet/skin/browserOverlay.css" ?>
+
+<!DOCTYPE overlay SYSTEM
+  "chrome://mztnTweet/locale/browserOverlay.dtd">
+
+<overlay id="mztnTweet-browser-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript"
+    src="chrome://mztnTweet/content/browserOverlay.js" />
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="mztnTweet-string-bundle"
+      src="chrome://mztnTweet/locale/browserOverlay.properties" />
+  </stringbundleset>
+
+ <toolbar id="nav-bar">
+        <toolbarbutton id="mztnTweet-button" label="Tweet ! | Mozilla Tunisia" onclick="XULSchoolChrome.BrowserOverlay.tweet(event);" >
+        </toolbarbutton>
+ </toolbar>
+</overlay>
