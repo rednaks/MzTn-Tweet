@@ -1,2 +1,7 @@
 Twitter Extension for firefox, built with XUL and JS.
 
+----------------------------------------------------
+How to create an xpi package :
+
+cd src
+zip -r ../xpi/<package_name>.xpi *
