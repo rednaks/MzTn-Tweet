@@ -19,7 +19,10 @@
   </stringbundleset>
 
  <toolbar id="nav-bar">
-        <toolbarbutton id="mztnTweet-button" label="Tweet ! | Mozilla Tunisia" onclick="XULMzTnChrome.BrowserOverlay.tweet(event);" >
+        <toolbarbutton type="menu-button" id="mztnTweet-button" label="Tweet ! | Mozilla Tunisia" oncommand="XULMzTnChrome.BrowserOverlay.tweet(event); event.stopPropagation();" >
+	<menupopup>
+		<menuitem label="About" oncommand="window.alert('Mozilla Tunisia Powaaaa !!'); event.stopPropagation();"/>
+	</menupopup>
         </toolbarbutton>
  </toolbar>
 </overlay>
